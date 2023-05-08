@@ -16,11 +16,11 @@
   Super   Shift  d        *show app menu* (`wofi large`)
 
 # wallpaper / styling stuff
-  Super           w       *wallpaper shuffle* (right click on wallpaper  waybar module)
-  Super   Shift   w       *waybar style-change* (middle click on wallpaper  waybar module)
-  Super   Ctrl    w       *wallpaper switcher* (click on wallpaper waybar   module)
+  Super           w       *wallpaper shuffle* (right click on wallpaper   waybar module)
+  Super   Shift   w       *waybar style-change* (middle click on wallpaper   waybar module)
+  Super   Ctrl    w       *wallpaper switcher* (click on wallpaper waybar    module)
 
-  right click on update waybar module  *wallpaper cycle using swaybg* (no animations)
+  right click on update   waybar module  *wallpaper cycle using swaybg* (no animations)
 
   To change permanently the wallpaper edit the file in *~/.config/hypr/configs/exec.conf*
 
@@ -65,4 +65,4 @@
 
 
 
-TO CLOSE THIS DOCUMENT - Super q or Super Shift qll
+TO CLOSE THIS DOCUMENT - Super q or Super Shift q
