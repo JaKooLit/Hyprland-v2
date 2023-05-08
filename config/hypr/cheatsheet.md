@@ -18,12 +18,11 @@
   Super           w       *wallpaper shuffle* (right click on wallpaper   waybar module)
   Super   Shift   w       *waybar style-change* (middle click on wallpaper   waybar module)
   Super   Ctrl    w       *wallpaper switcher* (click on wallpaper waybar    module)
-
   right click on update   waybar module  *wallpaper cycle using swaybg* (no animations)
-
   To change permanently the wallpaper edit the file in *~/.config/hypr/configs/exec.conf*
-
   for the wallpaper styles and configurations, you can watch my video about it *https://youtu.be/6ZGzOjMJBe4*
+  scripts for wallpaper stuff are located in *~/.config/hypr/scripts* file names `changeWallpaper` `changeWallpaper2` `wallpaper-switcher` `waybar-style-change` (last one for waybar)
+
 
 # screenshot
   Super PrintSrc(button)       *full screenshot*
