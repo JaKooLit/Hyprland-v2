@@ -574,7 +574,7 @@ clear
 printf "\n${OK} Yey! Installation Completed.\n"
 printf "\n"
 printf "\n"
-printf "\n${NOTE} NOTICE TO NVIDIA OWNERS! IT's KINDLY REBOOT YOUR SYSTEM"
+printf "\n${NOTE} NOTICE TO NVIDIA OWNERS! KINDLY REBOOT YOUR SYSTEM !!!"
 printf "\n"
 printf "\n"
 sleep 2
