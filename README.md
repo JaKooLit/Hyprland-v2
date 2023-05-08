@@ -54,9 +54,7 @@
 
 ## ✨ Arch Linux quick Installation:
 
-A guide to install :[`Youtube Link`](https://youtu.be/_deaeSU1WK8)
-
-Dual Boot Guide :[`Youtube Link`](https://www.youtube.com/watch?v=ADYqS8psSJ0)
+A guide to install :[`Youtube Link`](https://youtu.be/BUgzNdxOaD4)
 
 a.) You can install one by one packages or choose the automatic installer script.
 
