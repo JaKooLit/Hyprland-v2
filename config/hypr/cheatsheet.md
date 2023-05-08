@@ -2,9 +2,8 @@
 # If you have questions, or need help you can open issue on my github
 # Or you can reach me in or join on Discord that I admin
 # Discord link https://discord.gg/FW8C9exCE3 or you can message me directly on my discord JaKooLit#2819
+# Github page: https://github.com/JaKooLit
 
-
-# Hyprland CheatSheet #
   Super = Windows Key
 
 # common operations
@@ -33,8 +32,9 @@
 
 # applications shortcuts
   Super   T		  *file manager* (`thunar`) - if installed
-  
 
+  Keybindings file is located here *~/.config/hypr/configs/keybinds.conf*
+  
 # container layout
  
   Super   Shift   Space       *toggle tiling/floating mode*

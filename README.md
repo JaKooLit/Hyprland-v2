@@ -1,6 +1,6 @@
 
 <br>
-<h3 align = "center"> Arch Hyprland Dotfiles</h3>
+<h3 align = "center"> Arch Hyprland Dotfiles and Script Installer</h3>
 <br>
 
 ## Components:
@@ -21,7 +21,7 @@
 (all of the above components) plus
 `swaybg` - for wallpaper
 
-`swaybg` - for wallpaper animation
+`swwww` - for wallpaper animation
 
 `swayidle` - not necessary but you can install
 
@@ -49,6 +49,8 @@
 
 `pipewire` - needed pipewire pipewire-pulse pipewire-alsa
 
+`xdg-user-dirs` - by default archinstall script does not install this on "minimal" profile. That is why I have added in script
+
 
 ## ✨ Arch Linux quick Installation:
 
@@ -56,17 +58,12 @@ A guide to install :[`Youtube Link`](https://youtu.be/_deaeSU1WK8)
 
 Dual Boot Guide :[`Youtube Link`](https://www.youtube.com/watch?v=ADYqS8psSJ0)
 
-1.) optional: you can install nvidia-all driver from Frogging Family to replace the nvidia-drivers 
- - chmod +x nvidia-all-driver and run with nvidia-all-driver
+a.) You can install one by one packages or choose the automatic installer script.
 
-a.) paru-hyprland and yay-hyprland autoinstaller script included. Paru / Yay will be installed automatically if you select yes during the installation. 
-Make script executable by running chmod +x (for example chmod +x paru-hyprland) then ran ./paru-hyprland.
+b.) If you want to add or edit packages, edit install-hyprland script. Ensure packages are present on AUR or official else the script will fail.
 
-b.) You can install one by one packages or choose the automatic installer script.
-
-c.) If you want to add or edit packages, edit yay-hyprland or paru-hyprland script. Ensure packages are present on AUR or official else the script will fail.
-
-d.) Installation of Asus-ROG-utilities are entirely optional. This is only for Asus Laptop. if you select no, will skip the step.
+c.) Installation of Asus-ROG-utilities are entirely optional. This is only for Asus Laptop. if you select no, will skip the step.
+ 
 
 ## ✨ NVIDIA-Hyprland notes:
 - kindly note, on configs I added all the nvidia variables from Hyprland wiki [`Link`](https://wiki.hyprland.org/Nvidia/) but by default they are not enabled. I've had issues like OBS not recording, or intermittent crashing etc, on my laptop. Check the ~/.config/hypr/configs/exec.conf and uncomment one by one to try. You can read through Hyprland-Wiki for some guidance.
