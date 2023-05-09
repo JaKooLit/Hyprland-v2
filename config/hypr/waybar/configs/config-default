@@ -1,7 +1,7 @@
 {
   "include": "~/.config/hypr/waybar/modules",
   "layer": "top",
-  "mode": "dock",
+  //"mode": "dock",
   "exclusive": true,
   "passthrough": false,
   "position": "top",
