@@ -23,6 +23,8 @@
   for the wallpaper styles and configurations, you can watch my video about it *https://youtu.be/6ZGzOjMJBe4*
   scripts for wallpaper stuff are located in *~/.config/hypr/scripts* file names `changeWallpaper` `changeWallpaper2` `wallpaper-switcher` `waybar-style-change` (last one for waybar)
 
+# Monitor, executables, keybindings, window rules
+  files are located in *~/.config/hypr/configs*
 
 # screenshot
   Super PrintSrc(button)       *full screenshot*
