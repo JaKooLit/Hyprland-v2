@@ -58,6 +58,14 @@ A guide to install :[`Youtube Link`](https://youtu.be/BUgzNdxOaD4)
 
 a.) You can install one by one packages or choose the automatic installer script.
 
+clone this repo by using git
+
+cd Hyprland-v2
+
+chmod +× install-sh
+
+./install-sh
+
 b.) If you want to add or edit packages, edit install-hyprland script. Ensure packages are present on AUR or official else the script will fail.
 
 c.) Installation of Asus-ROG-utilities are entirely optional. This is only for Asus Laptop. if you select no, will skip the step.
