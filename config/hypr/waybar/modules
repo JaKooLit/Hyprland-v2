@@ -197,7 +197,7 @@
     "on-click": "~/.config/hypr/scripts/wallpaper-switcher",
     "on-click-right": "~/.config/hypr/scripts/changeWallpaper2",
     "on-click-middle": "~/.config/hypr/scripts/waybar-style-change",
-    "tooltip": true
+    "tooltip": true,
     "tooltip-format": "Change wallpaper or style"
   },
   
