@@ -131,7 +131,7 @@
     "format-icons": ["", "", "", "", ""],
     "format-time": "{H}h {M}min",
     "tooltip": true,
-    "on-click-right": "~/.config/hypr/scripts/glassmorphismToggle"
+    "on-click-right": "~/.config/hypr/scripts/glassmorphism"
   },
   
   "clock": {
@@ -165,7 +165,7 @@
     "format": "  ",
     "tooltip": false,
     "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
-    "on-click-right": "~/.config/hypr/scripts/glassmorphismToggle"
+    "on-click-right": "~/.config/hypr/scripts/glassmorphism"
   },
   
   "network": {
@@ -197,7 +197,7 @@
     "on-click": "~/.config/hypr/scripts/wallpaper-switcher",
     "on-click-right": "~/.config/hypr/scripts/changeWallpaper2",
     "on-click-middle": "~/.config/hypr/scripts/waybar-style-change",
-    "tooltip": true,
+    "tooltip": true
     "tooltip-format": "Change wallpaper or style"
   },
   
