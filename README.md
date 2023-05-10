@@ -2,45 +2,44 @@
 <h3 align = "center"> Arch Hyprland Dotfiles and Script Installer</h3>
 <br>
 ### Components:
-
-- Main Component:[`Hyprland`](https://github.com/hyprwm/Hyprland)
-- Terminal: [`Foot`](https://github.com/r-c-f/foot)
-- Status bar: [`Waybar`](https://github.com/Alexays/Waybar)
-- Menu : [`Wofi`](https://hg.sr.ht/~scoopta/wofi)
-- FIle Manager: [`Thunar`](https://docs.xfce.org/xfce/thunar/start) (Optional)
+-  Main Component:[`Hyprland`](https://github.com/hyprwm/Hyprland)
+-  Terminal: [`Foot`](https://github.com/r-c-f/foot)
+-  Status bar: [`Waybar`](https://github.com/Alexays/Waybar)
+-  Menu : [`Wofi`](https://hg.sr.ht/~scoopta/wofi)
+-  FIle Manager: [`Thunar`](https://docs.xfce.org/xfce/thunar/start) (Optional)
 
 ### FEATURES or Whats included in the dotfiles:
-- By default, Catpuccin Mocha Theme for Hyprland is added
+-  By default, Catpuccin Mocha Theme for Hyprland is added
 
 ### Miscellaneous (Optional):
-- Themes: `Catppuccin Mocha GTK Theme`
-- Cursor theme: `Catppuccin Cursors`
+-  Themes: `Catppuccin Mocha GTK Theme`
+-  Cursor theme: `Catppuccin Cursors`
 
 ### Needed packages:
--(all of the above components) plus
--`swaybg` - for wallpaper
--`swwww` - for wallpaper animation
--`swayidle` - not necessary but you can install
--`swaylock-effects` - or swaylock
--`wlroots` `wlogout` `cava` `polkit-gnome`
--`mako` - for notifications
--`grim` `slurp` `wl-clipboard` - for screenshot
--`brightnessctl`  - for monitor and keyboard brightness - not needed for desktop
--`mpv` - for wofi beats to work
--`viewnior` or `swayimg`  
--`pamixer` - for volume control notification. 
--`playerctl` - Keyboard hotkeys multimedia controls
--`xorg-xwayland` - needed to run some non-wayland app especially games
--`fonts` - required awesome fonts. AUR and official repo have... else most of the waybar modules wont work. Most of configs here I used Fantasque Sans Mono. I used Cascadia Code Semibold Italic on foot.
--`pipewire` - needed pipewire pipewire-pulse pipewire-alsa
--`xdg-user-dirs` - by default archinstall script does not install this on "minimal" profile. That is why I have added in script
+- (all of the above components) plus
+- `swaybg` - for wallpaper
+- `swwww` - for wallpaper animation
+- `swayidle` - not necessary but you can install
+- `swaylock-effects` - or swaylock
+- `wlroots` `wlogout` `cava` `polkit-gnome`
+- `mako` - for notifications
+- `grim` `slurp` `wl-clipboard` - for screenshot
+- `brightnessctl`  - for monitor and keyboard brightness - not needed for desktop
+- `mpv` - for wofi beats to work
+- `viewnior` or `swayimg`  
+- `pamixer` - for volume control notification. 
+- `playerctl` - Keyboard hotkeys multimedia controls
+- `xorg-xwayland` - needed to run some non-wayland app especially games
+- `fonts` - required awesome fonts. AUR and official repo have... else most of the waybar modules wont work. Most of configs here I used Fantasque Sans Mono. I used Cascadia Code Semibold Italic on foot.
+- `pipewire` - needed pipewire pipewire-pulse pipewire-alsa
+- `xdg-user-dirs` - by default archinstall script does not install this on "minimal" profile. That is why I have added in script
 
 ### ✨ Arch Linux quick Installation:
--A guide to install using the install script:[`Youtube Link`](https://youtu.be/BUgzNdxOaD4) 
--a.) You can install one by one packages above or choose the automatic installer script.
--b.) If you want to add or edit packages, edit install-hyprland script. Ensure packages are present on AUR or official else the script will fail.
--c.) Installation of Asus-ROG-utilities are entirely optional. This is only for Asus Laptop. if you select no, will skip the step.
--d.) Thunar and necessary plugins are entirely optional
+- A guide to install using the install script:[`Youtube Link`](https://youtu.be/BUgzNdxOaD4) 
+- a.) You can install one by one packages above or choose the automatic installer script.
+- b.) If you want to add or edit packages, edit install-hyprland script. Ensure packages are present on AUR or official else the script will fail.
+- c.) Installation of Asus-ROG-utilities are entirely optional. This is only for Asus Laptop. if you select no, will skip the step.
+- d.) Thunar and necessary plugins are entirely optional
 
 ### ✨ Some notes regarding using the install script:
 - clone this repo by using git. Change directory, make executable and run the script >cd Hyprland-v2 chmod +× install-sh ./install-sh
