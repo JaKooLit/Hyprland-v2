@@ -3,9 +3,13 @@
 <br>
 ### Components:
 - Main Component:[`Hyprland`](https://github.com/hyprwm/Hyprland)
+
 - Terminal: [`Foot`](https://github.com/r-c-f/foot)
+- 
 - Status bar: [`Waybar`](https://github.com/Alexays/Waybar)
+- 
 - Menu : [`Wofi`](https://hg.sr.ht/~scoopta/wofi)
+- 
 - FIle Manager: [`Thunar`](https://docs.xfce.org/xfce/thunar/start) (Optional)
 
 ### FEATURES or Whats included in the dotfiles:
