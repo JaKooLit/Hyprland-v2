@@ -205,7 +205,7 @@ else
     printf "\n"
 
     # preparing exec.conf to enable env = WLR_NO_HARDWARE_CURSORS,1 so it will be ready once config files copied
-    sed -i '30s/#//' configs/exec.conf
+    sed -i '30s/#//' config/exec.conf
     
     # Additional Nvidia steps
     NVEA="/etc/modprobe.d/nvidia.conf"
