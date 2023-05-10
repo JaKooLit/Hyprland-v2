@@ -2,6 +2,7 @@
 <h3 align = "center"> Arch Hyprland Dotfiles and Script Installer</h3>
 <br>
 ### Components:
+
 - Main Component:[`Hyprland`](https://github.com/hyprwm/Hyprland)
 - Terminal: [`Foot`](https://github.com/r-c-f/foot)
 - Status bar: [`Waybar`](https://github.com/Alexays/Waybar)
