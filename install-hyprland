@@ -376,7 +376,7 @@ if [[ $install_sddm =~ ^[Yy]$ ]]; then
     fi
   done 
 
-    # Check if packages are installed and uninstall if present
+    # Check if other login managers installed and disabling its service before enabling sddm
     if pacman -Qs lightdm > /dev/null ; then
     echo "disabling lightdm..."
     sudo systemctl disable lightdm.service 2>&1 | tee -a $LOG
