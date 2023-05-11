@@ -48,6 +48,8 @@
   Super  Shift  1 .. 0    *move container to workspace 1 .. 10*
   Super   Tab             *cycle through workspaces*
 
+# waybar customizations
+  if you want 12h format instead of 24H format, edit the ~/.config/hypr/waybar/modules look for clock. delete the // and add // or delete the previous one
 
 # Hyprland configurations
   - *Hyprland* configuration files are in `~/.config/hypr/`
