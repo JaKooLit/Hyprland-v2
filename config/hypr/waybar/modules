@@ -36,7 +36,12 @@
   
 "disk": {
   "interval": 30,
-  "format": " {free}",
+  "format": "󰋊",
+  "path": "/",
+  "format-alt-click": "click",
+  "format-alt": "󰋊 {percentage_used}%",
+  "tooltip": true,
+  "tooltip-format": "{used} used out of {total} on {path} ({percentage_used}%)",
 },
 
 "memory": {
@@ -180,18 +185,15 @@
   "tooltip-format-ethernet": "{ifname} ",
   "tooltip-format-disconnected": "Disconnected",
   "max-length": 50,
-  //"on-click": "foot -T nmtui"
 },
   
 "bluetooth": {
-  "format": " {status}",
-  "format-connected": " {device_alias}",
-  "format-connected-battery": " {device_alias} {device_battery_percentage}%",
-  // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
-  "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
-  "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
-  "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-  "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+  "format": "",
+  "format-disabled": "", // an empty format will hide the module
+  "format-connected": " {num_connections}",
+  "tooltip-format": " {device_alias}",
+  "tooltip-format-connected": "{device_enumerate}",
+  "tooltip-format-enumerate-connected": " {device_alias}"
 },
   
 "custom/cycle_wall":{
@@ -258,7 +260,7 @@
 },
   
 "custom/keybindings": {
-  "format":"爵",
+  "format":"",
   "tooltip": false,
   "on-click": "~/.config/hypr/scripts/keyhint",
 },
