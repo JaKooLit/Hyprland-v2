@@ -50,7 +50,7 @@ printf "\n"
 printf "\n"
 
 # Print password VM warning message
-printf "\n${NOTE} If you and installing on a VM (virtual box, VMWARE, QEMU-KVM), kindly ensure that 3D acceleration is enabled.\n"
+printf "\n${NOTE} If you are installing on a VM (virtual box, VMWARE, QEMU-KVM), kindly ensure that 3D acceleration is enabled.\n"
 printf "Hyprland's performance on a Virtual Environment is abysmal... worst at its best. and it may not start at all!! YOU HAVE BEEN WARNED .${RESET}\n"
 sleep 2
 printf "\n"
