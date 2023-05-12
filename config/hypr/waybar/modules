@@ -270,7 +270,7 @@
   "exec": "checkupdates | wc -l",
   "exec-if": "[[ $(checkupdates | wc -l) ]]",
   "interval": 15,
-  "on-click": "foot -T update paru -Syu && notify-send 'The system has been updated'",
+  "on-click": "foot -T update paru -Syu || yay -Syu && notify-send 'The system has been updated'",
   "on-click-right": "~/.config/hypr/scripts/changeWallpaper",
 },
   
