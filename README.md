@@ -26,7 +26,7 @@
 - `swwww` - for wallpaper animation
 - `swayidle` - not necessary but you can install
 - `swaylock-effects` - or swaylock
-- `wlroots` `wlogout` `cava` `polkit-gnome`
+- `wlroots` `wlogout` `cava` `polkit-kde-agent`
 - `mako` - for notifications
 - `grim` `slurp` `wl-clipboard` - for screenshot
 - `brightnessctl`  - for monitor and keyboard brightness - not needed for desktop
