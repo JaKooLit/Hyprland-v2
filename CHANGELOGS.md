@@ -1,4 +1,7 @@
 # Changelogs #
+# 13 May 2023
+- changed polkit-gnome to polkit-kde-agent as polkit-gnome brokes swww at fractional-scaling
+
 # 11 May 2023 
 - added 12H options in waybar clock module for those who wanted 12H instead of 24H
 
