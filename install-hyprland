@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://github.com/JaKooLit
 
 # Set some colors for output messages
 OK="$(tput setaf 2)[OK]$(tput sgr0)"
@@ -423,7 +424,6 @@ fi
 #clear screen
 clear
 
-
 ### Install software for Asus ROG laptops ###
 read -n1 -rep "${CAT} (OPTIONAL - ONLY for ROG Laptops) Would you like to install Asus ROG software support? (y/n)" ROG
 if [[ $ROG =~ ^[Yy]$ ]]; then
@@ -439,28 +439,6 @@ if [[ $ROG =~ ^[Yy]$ ]]; then
     sudo systemctl daemon-reload && sudo systemctl enable --now supergfxd 2>&1 | tee -a $LOG
 else
     printf "${NOTE} Asus ROG software support not installed..\n"
-fi
-
-#clear screen
-clear
-
-### Disable wifi powersave mode ###
-read -n1 -rp "${CAT} Would you like to disable wifi powersave? (y/n) " WIFI
-if [[ $WIFI =~ ^[Yy]$ ]]; then
-    LOC="/etc/NetworkManager/conf.d/wifi-powersave.conf"
-    if [ -f "$LOC" ]; then
-        printf "${OK} seems wifi powersave already disabled.\n"
-    else
-        printf "\n"
-        printf "${NOTE} The following has been added to $LOC.\n"
-        printf "[connection]\nwifi.powersave = 2" | sudo tee -a $LOC
-        printf "\n"
-        printf "${NOTE} Restarting NetworkManager service...\n"
-        sudo systemctl restart NetworkManager 2>&1 | tee -a $LOG
-        sleep 2        
-    fi    
-else
-    printf "${NOTE} WIFI Powersave is not being disabled.\n"
 fi
 
 #clear screen
@@ -512,6 +490,27 @@ else
   printf "${NOTE} XDPH will not be installed..\n"
 fi
 
+#clear screen
+clear
+
+### Disable wifi powersave mode ###
+read -n1 -rp "${CAT} Would you like to disable wifi powersave? (y/n) " WIFI
+if [[ $WIFI =~ ^[Yy]$ ]]; then
+    LOC="/etc/NetworkManager/conf.d/wifi-powersave.conf"
+    if [ -f "$LOC" ]; then
+        printf "${OK} seems wifi powersave already disabled.\n"
+    else
+        printf "\n"
+        printf "${NOTE} The following has been added to $LOC.\n"
+        printf "[connection]\nwifi.powersave = 2" | sudo tee -a $LOC
+        printf "\n"
+        printf "${NOTE} Restarting NetworkManager service...\n"
+        sudo systemctl restart NetworkManager 2>&1 | tee -a $LOG
+        sleep 2        
+    fi    
+else
+    printf "${NOTE} WIFI Powersave is not being disabled.\n"
+fi
 
 #clear screen
 clear
