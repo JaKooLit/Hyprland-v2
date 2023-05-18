@@ -1,4 +1,7 @@
 # Changelogs #
+# 16 May 2023
+- updated wlogout looks
+
 # 13 May 2023
 - changed polkit-gnome to polkit-kde-agent as polkit-gnome brokes swww at fractional-scaling
 
