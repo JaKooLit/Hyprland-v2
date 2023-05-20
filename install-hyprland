@@ -535,11 +535,11 @@ if [[ $CFG =~ ^[Yy]$ ]]; then
 
     printf " Copying config files...\n"
     mkdir -p ~/.config
-    cp -r config/hypr ~/.config/ || { echo "Error: Failed to copy hypr config files."; exit 1; } 2>&1 | tee -a $LOG
     cp -r config/foot ~/.config/ || { echo "Error: Failed to copy foot config files."; exit 1; } 2>&1 | tee -a $LOG
     cp -r config/wlogout ~/.config/ || { echo "Error: Failed to copy wlogout config files."; exit 1; } 2>&1 | tee -a $LOG
     cp -r config/btop ~/.config/ || { echo "Error: Failed to copy btop config files."; exit 1; } 2>&1 | tee -a $LOG
     cp -r config/cava ~/.config/ || { echo "Error: Failed to copy cava config files."; exit 1; } 2>&1 | tee -a $LOG
+    cp -r config/hypr ~/.config/  && { echo "Copy completed!"; } || { echo "Error: Failed to copy wallpapers."; exit 1; } 2>&1 | tee -a "$LOG"
     
     # Set some files as executable 
     chmod +x ~/.config/hypr/scripts/airplane-mode.sh 2>&1 | tee -a $LOG
