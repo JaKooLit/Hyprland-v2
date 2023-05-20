@@ -49,8 +49,11 @@
   Super   Tab             *cycle through workspaces*
 
 # waybar customizations
-  if you want 12h format instead of 24H format, edit the ~/.config/hypr/waybar/modules look for clock. delete the // and add // or delete the previous one
-
+  - if you want 12h format instead of 24H format, edit the ~/.config/hypr/waybar/modules look for clock. delete the // and add // or delete the previous one
+  - CPU Temperature:
+    - a.) to change from deg C to deg F , edit the ~/.config/hypr/waybar/modules look for "temperature". Change the format to "format": "{temperatureF}°F {icon}",
+    - b.) to fix the temperature if not showing correctly, comment "thermal zone": 0 by putting // before. Delete the // on the "hwmon path". Refresh waybar by pressing CTRL SHIFT w. If still not showing correctly, navigate to /sys/class/hwmon/ and open each hwmon. Look for k10temp for amd. Not sure about intel cpu. and edit accordingly the hwmon path in the "temperature" waybar module.
+    
 # Hyprland configurations
   - *Hyprland* configuration files are in `~/.config/hypr/`
   - files located in this folder can be edited using editor of your choice.

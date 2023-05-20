@@ -1,4 +1,8 @@
 # Changelogs #
+# 20 May 2023
+- updated cheatsheet
+- updated wallpaper-switcher script for better flexibility
+
 # 16 May 2023
 - updated wlogout looks
 
