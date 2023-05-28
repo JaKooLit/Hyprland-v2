@@ -1,3 +1,8 @@
+## NOTE: Highly suggest to ran the Hyprland-v2.1 Install Script. Much more up to date and has easier Hyprland-v2.2 upgrade.
+
+[`Github Link for Hyprland-v2.1`](https://github.com/JaKooLit/Hyprland-v2.1)
+
+
 <br>
 <h3 align = "center"> Arch Hyprland Dotfiles and Script Installer</h3>
 <br>
