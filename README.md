@@ -74,3 +74,8 @@
 - a.) Copy / Move files / folders in your ~/.config
 - b.) if you have azerty keyboard [`this`](https://github.com/swaywm/sway/issues/1460?fbclid=IwAR1C8VcY_wWbGhXvT-5ApjJCQuJoJzhOVor6o5fdn0Nj1c6bD9JXoQAPQIg) might help
 
+### ✨ known-issues:
+
+- [ ] fractional scaling breaks swww
+
+- [ ] weather data sometimes does not give data. This is because module is not receiving data from weather server. Deleting the rbn folder in your ~/.cache sometimes help
