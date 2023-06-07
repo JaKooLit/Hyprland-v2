@@ -198,8 +198,13 @@ else
             done
         done
 
-    # adding nvidia modules in mkinitcpio
-        sudo sed -i 's/MODULES=()/MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)/' /etc/mkinitcpio.conf 2>&1 | tee -a $LOG
+    #check if the nvidia modules are already added in mkinitcpio.conf and add if not
+    if grep -qE '^MODULES=.*nvidia. *nvidia_modeset.*nvidia_uvm.*nvidia_drm' /etc/mkinitcpio.conf; then
+	    echo "Nvidia modules already included in /etc/mkinitcpio.conf" 2>&1 | tee -a $LOG
+    else
+	    sudo sed -Ei 's/^(MODULES=\([^\)]*)\)/\1 nvidia nvidia_modeset nvidia_uvm nvidia_drm)/' /etc/mkinitcpio.conf 2>&1 | tee -a $LOG
+	    echo "Nvidia modules added in /etc/mkinitcpio.conf"
+    fi
         sudo mkinitcpio -P 2>&1 | tee -a $LOG
     printf "\n"   
     printf "\n"
