@@ -79,3 +79,5 @@
 - [ ] fractional scaling breaks swww
 
 - [ ] weather data sometimes does not give data. This is because module is not receiving data from weather server. Deleting the rbn folder in your ~/.cache sometimes help
+
+- [ ] background not rendering (black background) after a forced shutdown. Deleting the swww folder in your ~/.cache should fix it after a reboot 
